@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Skyvo unifies drones, robotics, and edge AI to turn field data into decisions—safely, fast, and at scale. Serving the Greater Toronto Area.">
+    <meta property="og:title" content="Skyvo - Drones • Robotics • AI Consulting">
+    <meta property="og:description" content="Skyvo unifies drones, robotics, and edge AI to turn field data into decisions—safely, fast, and at scale.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://skyvo.io">
+    <title>Skyvo - Drones • Robotics • AI Consulting</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-content">
+                <a href="#" class="logo">
+                    <span class="logo-text">SKYVO</span>
+                </a>
+                <div class="nav-links">
+                    <a href="#solutions" class="nav-link">Solutions</a>
+                    <a href="#use-cases" class="nav-link">Use Cases</a>
+                    <a href="#process" class="nav-link">Process</a>
+                    <a href="#faq" class="nav-link">FAQ</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <a href="#contact" class="btn btn-primary">Book a Consult</a>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#solutions" class="mobile-menu-link">Solutions</a>
+        <a href="#use-cases" class="mobile-menu-link">Use Cases</a>
+        <a href="#process" class="mobile-menu-link">Process</a>
+        <a href="#faq" class="mobile-menu-link">FAQ</a>
+        <a href="#contact" class="mobile-menu-link">Contact</a>
+        <a href="#contact" class="btn btn-primary">Book a Consult</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title fade-in">Turn Field Data Into Decisions With Drones, Robotics & Edge AI</h1>
+                <p class="hero-subtitle fade-in-delay-1">Skyvo unifies aerial mapping, autonomous robotics, and intelligent automation to deliver faster, safer, and more accurate inspection and operational insights—at scale.</p>
+                <div class="hero-cta fade-in-delay-2">
+                    <a href="#contact" class="btn btn-primary btn-large">Book a Consult</a>
+                    <a href="#capabilities" class="btn btn-secondary btn-large">Download Capabilities Brief</a>
+                </div>
+                <div class="hero-visual fade-in-delay-3">
+                    <div class="hero-visual-placeholder">
+                        <svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#0EA5E9;stop-opacity:0.3" />
+                                    <stop offset="100%" style="stop-color:#14B8A6;stop-opacity:0.3" />
+                                </linearGradient>
+                            </defs>
+                            <rect width="800" height="400" fill="url(#grad1)"/>
+                            <circle cx="400" cy="150" r="40" fill="#0EA5E9" opacity="0.6"/>
+                            <path d="M 200 300 L 400 200 L 600 300" stroke="#14B8A6" stroke-width="3" fill="none" opacity="0.8"/>
+                            <rect x="350" y="180" width="100" height="60" fill="#0F172A" opacity="0.4"/>
+                            <text x="400" y="350" font-family="Space Grotesk, sans-serif" font-size="24" fill="#E2E8F0" text-anchor="middle" opacity="0.7">Drones • Robotics • AI</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Strip -->
+    <section class="trust-strip">
+        <div class="container">
+            <p class="trust-statement">Trusted by leading organizations across construction, utilities, telecom, and public safety sectors in the Greater Toronto Area</p>
+        </div>
+    </section>
+
+    <!-- Three Pillars -->
+    <section class="pillars" id="solutions">
+        <div class="container">
+            <h2 class="section-title">Our Solutions</h2>
+            <p class="section-subtitle">Three integrated capabilities that transform how you capture, analyze, and act on field data</p>
+            <div class="pillars-grid">
+                <div class="pillar-card scroll-reveal">
+                    <div class="pillar-icon">
+                        <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="32" cy="20" r="8" fill="#0EA5E9"/>
+                            <rect x="28" y="28" width="8" height="12" fill="#0EA5E9"/>
+                            <line x1="20" y1="34" x2="44" y2="34" stroke="#14B8A6" stroke-width="2"/>
+                            <line x1="20" y1="34" x2="16" y2="44" stroke="#14B8A6" stroke-width="2"/>
+                            <line x1="44" y1="34" x2="48" y2="44" stroke="#14B8A6" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="pillar-title">Drones</h3>
+                    <p class="pillar-description">Capture high-resolution aerial data for inspection, mapping, and monitoring—faster and safer than traditional methods.</p>
+                    <ul class="pillar-services">
+                        <li>Aerial mapping (RGB/LiDAR)</li>
+                        <li>Thermography & roof/facade inspection</li>
+                        <li>Orthomosaics & 3D models</li>
+                        <li>Progress monitoring & site surveys</li>
+                    </ul>
+                </div>
+
+                <div class="pillar-card scroll-reveal">
+                    <div class="pillar-icon">
+                        <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="20" y="16" width="24" height="32" rx="2" fill="#0EA5E9"/>
+                            <circle cx="32" cy="32" r="6" fill="#14B8A6"/>
+                            <rect x="16" y="24" width="4" height="16" fill="#14B8A6"/>
+                            <rect x="44" y="24" width="4" height="16" fill="#14B8A6"/>
+                            <rect x="24" y="48" width="6" height="8" fill="#0EA5E9"/>
+                            <rect x="34" y="48" width="6" height="8" fill="#0EA5E9"/>
+                        </svg>
+                    </div>
+                    <h3 class="pillar-title">Robotics</h3>
+                    <p class="pillar-description">Deploy autonomous mobile robots and collaborative systems for industrial inspection, material handling, and precision tasks.</p>
+                    <ul class="pillar-services">
+                        <li>AMR/UGV integration & deployment</li>
+                        <li>Industrial inspection robots</li>
+                        <li>Cobot cells & automation</li>
+                        <li>Perception & control (ROS2, SLAM)</li>
+                    </ul>
+                </div>
+
+                <div class="pillar-card scroll-reveal">
+                    <div class="pillar-icon">
+                        <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="32" cy="32" r="20" fill="none" stroke="#0EA5E9" stroke-width="2"/>
+                            <circle cx="32" cy="32" r="4" fill="#14B8A6"/>
+                            <line x1="32" y1="12" x2="32" y2="24" stroke="#14B8A6" stroke-width="2"/>
+                            <line x1="32" y1="40" x2="32" y2="52" stroke="#14B8A6" stroke-width="2"/>
+                            <line x1="12" y1="32" x2="24" y2="32" stroke="#14B8A6" stroke-width="2"/>
+                            <line x1="40" y1="32" x2="52" y2="32" stroke="#14B8A6" stroke-width="2"/>
+                            <circle cx="32" cy="18" r="3" fill="#0EA5E9"/>
+                            <circle cx="32" cy="46" r="3" fill="#0EA5E9"/>
+                            <circle cx="18" cy="32" r="3" fill="#0EA5E9"/>
+                            <circle cx="46" cy="32" r="3" fill="#0EA5E9"/>
+                        </svg>
+                    </div>
+                    <h3 class="pillar-title">AI</h3>
+                    <p class="pillar-description">Transform raw data into actionable intelligence with computer vision, edge inference, and automated workflows.</p>
+                    <ul class="pillar-services">
+                        <li>Computer vision (detection/segmentation)</li>
+                        <li>Model training & data pipelines</li>
+                        <li>Edge inference & real-time processing</li>
+                        <li>Workflow automation & digital twins</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Grid -->
+    <section class="use-cases" id="use-cases">
+        <div class="container">
+            <h2 class="section-title">Use Cases</h2>
+            <p class="section-subtitle">Real-world applications across industries</p>
+            <div class="use-cases-grid">
+                <div class="use-case-card scroll-reveal">
+                    <h3 class="use-case-title">Roof & Facade Inspection</h3>
+                    <p class="use-case-problem"><strong>Problem:</strong> Manual inspections are slow, dangerous, and often miss critical defects.</p>
+                    <p class="use-case-value"><strong>Value:</strong> Aerial thermography and high-resolution imaging identify leaks, structural issues, and maintenance needs without scaffolding or rope access.</p>
+                    <p class="use-case-deliverables"><strong>Deliverables:</strong> Thermal maps, annotated orthomosaics, defect reports with GPS coordinates.</p>
+                </div>
+
+                <div class="use-case-card scroll-reveal">
+                    <h3 class="use-case-title">Construction Progress</h3>
+                    <p class="use-case-problem"><strong>Problem:</strong> Tracking multi-site progress manually is time-consuming and error-prone.</p>
+                    <p class="use-case-value"><strong>Value:</strong> Automated drone flights capture site conditions weekly, enabling accurate progress tracking and stakeholder reporting.</p>
+                    <p class="use-case-deliverables"><strong>Deliverables:</strong> Time-lapse orthomosaics, volumetric analysis, progress dashboards.</p>
+                </div>
+
+                <div class="use-case-card scroll-reveal">
+                    <h3 class="use-case-title">Solar & Wind O&M</h3>
+                    <p class="use-case-problem"><strong>Problem:</strong> Inspecting renewable energy assets is labor-intensive and disrupts operations.</p>
+                    <p class="use-case-value"><strong>Value:</strong> Thermal and visual drone inspections detect panel defects, turbine blade damage, and hotspots in a fraction of the time.</p>
+                    <p class="use-case-deliverables"><strong>Deliverables:</strong> Thermal anomaly reports, blade condition assessments, maintenance prioritization.</p>
+                </div>
+
+                <div class="use-case-card scroll-reveal">
+                    <h3 class="use-case-title">Utilities & Industrial Inspection</h3>
+                    <p class="use-case-problem"><strong>Problem:</strong> Inspecting power lines, pipelines, and industrial facilities poses safety risks and requires downtime.</p>
+                    <p class="use-case-value"><strong>Value:</strong> Drones and ground robots inspect assets remotely, reducing risk and enabling predictive maintenance.</p>
+                    <p class="use-case-deliverables"><strong>Deliverables:</strong> Condition reports, 3D models, AI-annotated defect maps.</p>
+                </div>
+
+                <div class="use-case-card scroll-reveal">
+                    <h3 class="use-case-title">Agriculture & Environmental</h3>
+                    <p class="use-case-problem"><strong>Problem:</strong> Monitoring large agricultural or environmental sites manually is inefficient and lacks precision.</p>
+                    <p class="use-case-value"><strong>Value:</strong> Multispectral imaging and AI analytics provide crop health insights, erosion monitoring, and habitat assessment.</p>
+                    <p class="use-case-deliverables"><strong>Deliverables:</strong> NDVI maps, change detection reports, environmental impact assessments.</p>
+                </div>
+
+                <div class="use-case-card scroll-reveal">
+                    <h3 class="use-case-title">Security & 2D–3D Mapping</h3>
+                    <p class="use-case-problem"><strong>Problem:</strong> Traditional surveying and security assessments are slow and lack comprehensive spatial context.</p>
+                    <p class="use-case-value"><strong>Value:</strong> High-accuracy mapping and 3D modeling provide detailed site intelligence for security planning and asset management.</p>
+                    <p class="use-case-deliverables"><strong>Deliverables:</strong> GeoTIFF maps, point clouds, CAD/IFC-ready 3D models.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mini Case Studies -->
+    <section class="case-studies">
+        <div class="container">
+            <h2 class="section-title">Proven Results</h2>
+            <p class="section-subtitle">Real outcomes from real deployments</p>
+            <div class="case-studies-grid">
+                <div class="case-study-card scroll-reveal">
+                    <div class="case-study-image">
+                        <svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="400" height="250" fill="#0F172A"/>
+                            <path d="M 0 200 Q 100 150 200 180 T 400 160" stroke="#0EA5E9" stroke-width="3" fill="none"/>
+                            <circle cx="100" cy="150" r="6" fill="#14B8A6"/>
+                            <circle cx="200" cy="180" r="6" fill="#14B8A6"/>
+                            <circle cx="300" cy="140" r="6" fill="#14B8A6"/>
+                            <text x="200" y="130" font-family="Space Grotesk" font-size="18" fill="#E2E8F0" text-anchor="middle">Commercial Building</text>
+                        </svg>
+                    </div>
+                    <h3 class="case-study-title">Commercial Roof Assessment</h3>
+                    <p class="case-study-description">A property management firm needed to assess 12 commercial roofs across the GTA. Traditional methods would have taken weeks and required costly scaffolding.</p>
+                    <div class="case-study-metrics">
+                        <div class="metric">
+                            <span class="metric-value">4×</span>
+                            <span class="metric-label">Faster Inspection</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">35%</span>
+                            <span class="metric-label">Cost Reduction</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">2cm</span>
+                            <span class="metric-label">GSD Accuracy</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="case-study-cta">Request a Case Study Call →</a>
+                </div>
+
+                <div class="case-study-card scroll-reveal">
+                    <div class="case-study-image">
+                        <svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="400" height="250" fill="#0F172A"/>
+                            <rect x="50" y="100" width="80" height="120" fill="#0EA5E9" opacity="0.3"/>
+                            <rect x="160" y="80" width="80" height="140" fill="#0EA5E9" opacity="0.5"/>
+                            <rect x="270" y="60" width="80" height="160" fill="#0EA5E9" opacity="0.7"/>
+                            <text x="200" y="40" font-family="Space Grotesk" font-size="18" fill="#E2E8F0" text-anchor="middle">Construction Site</text>
+                        </svg>
+                    </div>
+                    <h3 class="case-study-title">Multi-Site Progress Tracking</h3>
+                    <p class="case-study-description">A construction company needed weekly progress documentation across five active sites to keep stakeholders informed and identify schedule risks early.</p>
+                    <div class="case-study-metrics">
+                        <div class="metric">
+                            <span class="metric-value">5</span>
+                            <span class="metric-label">Sites Monitored</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">Weekly</span>
+                            <span class="metric-label">Updates</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">100%</span>
+                            <span class="metric-label">Coverage</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="case-study-cta">Request a Case Study Call →</a>
+                </div>
+
+                <div class="case-study-card scroll-reveal">
+                    <div class="case-study-image">
+                        <svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="400" height="250" fill="#0F172A"/>
+                            <circle cx="100" cy="125" r="40" fill="none" stroke="#14B8A6" stroke-width="3"/>
+                            <circle cx="200" cy="125" r="40" fill="none" stroke="#14B8A6" stroke-width="3"/>
+                            <circle cx="300" cy="125" r="40" fill="none" stroke="#14B8A6" stroke-width="3"/>
+                            <rect x="90" y="115" width="20" height="20" fill="#F59E0B"/>
+                            <rect x="290" y="115" width="20" height="20" fill="#F59E0B"/>
+                            <text x="200" y="200" font-family="Space Grotesk" font-size="18" fill="#E2E8F0" text-anchor="middle">Industrial Facility</text>
+                        </svg>
+                    </div>
+                    <h3 class="case-study-title">Automated Defect Detection</h3>
+                    <p class="case-study-description">An industrial facility needed to inspect hundreds of storage tanks for corrosion and structural defects. Manual inspection was slow and inconsistent.</p>
+                    <div class="case-study-metrics">
+                        <div class="metric">
+                            <span class="metric-value">200+</span>
+                            <span class="metric-label">Assets Inspected</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">95%</span>
+                            <span class="metric-label">Detection Rate</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">60%</span>
+                            <span class="metric-label">Time Saved</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="case-study-cta">Request a Case Study Call →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process -->
+    <section class="process" id="process">
+        <div class="container">
+            <h2 class="section-title">Our Process</h2>
+            <p class="section-subtitle">From discovery to scale in four proven steps</p>
+            <div class="process-grid">
+                <div class="process-step scroll-reveal">
+                    <div class="process-number">01</div>
+                    <div class="process-icon">
+                        <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="32" cy="32" r="24" fill="none" stroke="#0EA5E9" stroke-width="2"/>
+                            <path d="M 32 20 L 32 32 L 42 38" stroke="#14B8A6" stroke-width="2" fill="none"/>
+                        </svg>
+                    </div>
+                    <h3 class="process-title">Discover</h3>
+                    <p class="process-description">We assess your needs, site conditions, and success criteria to design the right solution.</p>
+                </div>
+
+                <div class="process-step scroll-reveal">
+                    <div class="process-number">02</div>
+                    <div class="process-icon">
+                        <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="16" y="16" width="32" height="32" rx="2" fill="none" stroke="#0EA5E9" stroke-width="2"/>
+                            <path d="M 24 32 L 30 38 L 40 26" stroke="#14B8A6" stroke-width="2" fill="none"/>
+                        </svg>
+                    </div>
+                    <h3 class="process-title">Pilot</h3>
+                    <p class="process-description">A focused 60–90 day pilot validates the approach, refines workflows, and demonstrates ROI.</p>
+                </div>
+
+                <div class="process-step scroll-reveal">
+                    <div class="process-number">03</div>
+                    <div class="process-icon">
+                        <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M 32 12 L 52 32 L 32 52 L 12 32 Z" fill="none" stroke="#0EA5E9" stroke-width="2"/>
+                            <circle cx="32" cy="32" r="8" fill="#14B8A6"/>
+                        </svg>
+                    </div>
+                    <h3 class="process-title">Deploy</h3>
+                    <p class="process-description">We roll out the solution across your operations with training, documentation, and support.</p>
+                </div>
+
+                <div class="process-step scroll-reveal">
+                    <div class="process-number">04</div>
+                    <div class="process-icon">
+                        <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="12" y="28" width="16" height="24" fill="#0EA5E9" opacity="0.4"/>
+                            <rect x="24" y="20" width="16" height="32" fill="#0EA5E9" opacity="0.6"/>
+                            <rect x="36" y="12" width="16" height="40" fill="#0EA5E9" opacity="0.8"/>
+                        </svg>
+                    </div>
+                    <h3 class="process-title">Scale</h3>
+                    <p class="process-description">Expand to additional sites, use cases, and workflows as your team gains confidence and capability.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Ribbon -->
+    <section class="tech-stack">
+        <div class="container">
+            <h2 class="section-title">Technology Stack</h2>
+            <div class="tech-ribbon">
+                <div class="tech-item">DJI/Skydio</div>
+                <div class="tech-item">RTK/PPK</div>
+                <div class="tech-item">LiDAR/Thermal</div>
+                <div class="tech-item">Photogrammetry</div>
+                <div class="tech-item">ROS2</div>
+                <div class="tech-item">OpenCV</div>
+                <div class="tech-item">Ultralytics</div>
+                <div class="tech-item">NVIDIA Jetson</div>
+                <div class="tech-item">AWS/GCP/Azure</div>
+                <div class="tech-item">Digital Twins</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compliance & Safety -->
+    <section class="compliance">
+        <div class="container">
+            <h2 class="section-title">Compliance & Safety</h2>
+            <div class="compliance-content">
+                <p class="compliance-text">Skyvo operates under <strong>Transport Canada RPAS Advanced Operations</strong> certification with SFOC (Special Flight Operations Certificate) capabilities as required. Every deployment includes comprehensive risk assessments, flight planning, data governance protocols, and full insurance coverage. Safety and regulatory compliance are non-negotiable foundations of our work.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item scroll-reveal">
+                    <h3 class="faq-question">What about airspace permissions and flight approvals?</h3>
+                    <p class="faq-answer">We handle all airspace coordination, including SFOC applications for controlled airspace. Our Transport Canada Advanced RPAS certification allows us to operate in complex environments, and we conduct thorough site assessments to ensure compliance with all regulations.</p>
+                </div>
+
+                <div class="faq-item scroll-reveal">
+                    <h3 class="faq-question">What formats do you deliver data in?</h3>
+                    <p class="faq-answer">We provide industry-standard formats including GeoTIFF for orthomosaics, LAS/LAZ for point clouds, CAD/IFC for BIM handoffs, PDF reports with annotations, and custom dashboards. All deliverables are georeferenced and ready for integration into your existing workflows.</p>
+                </div>
+
+                <div class="faq-item scroll-reveal">
+                    <h3 class="faq-question">What are typical lead times?</h3>
+                    <p class="faq-answer">Discovery assessments typically take 1–2 weeks. Pilot projects run 60–90 days. Once deployed, routine inspections can be scheduled with 3–5 business days' notice, weather permitting. Rush services are available for urgent needs.</p>
+                </div>
+
+                <div class="faq-item scroll-reveal">
+                    <h3 class="faq-question">What's your coverage area?</h3>
+                    <p class="faq-answer">We're based in the Greater Toronto Area and serve clients across Southern Ontario. For larger projects or multi-site deployments outside this region, we can coordinate with trusted partners or mobilize our team as needed.</p>
+                </div>
+
+                <div class="faq-item scroll-reveal">
+                    <h3 class="faq-question">Who owns the data?</h3>
+                    <p class="faq-answer">You do. All data collected during your project is your property. We retain a copy for quality assurance and to support ongoing services, but you have full rights to use, share, and archive the data as you see fit.</p>
+                </div>
+
+                <div class="faq-item scroll-reveal">
+                    <h3 class="faq-question">What about insurance and liability?</h3>
+                    <p class="faq-answer">Skyvo carries comprehensive commercial general liability and aviation liability insurance. We provide certificates of insurance upon request and can add clients as additional insured parties as needed.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get Started</h2>
+            <p class="section-subtitle">Book a consultation or request our capabilities brief</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <h3>Email</h3>
+                        <a href="mailto:hello@skyvo.io">hello@skyvo.io</a>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>Phone</h3>
+                        <a href="tel:+14168058408">416-805-8408</a>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>Service Area</h3>
+                        <p>Greater Toronto Area, Ontario, Canada</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>Website</h3>
+                        <a href="https://skyvo.io" target="_blank" rel="noopener">skyvo.io</a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company *</label>
+                            <input type="text" id="company" name="company" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="sector">Sector</label>
+                            <select id="sector" name="sector">
+                                <option value="">Select a sector</option>
+                                <option value="construction">Construction & AECO</option>
+                                <option value="building-sciences">Building Sciences/Asset Management</option>
+                                <option value="utilities">Utilities/Energy</option>
+                                <option value="telecom">Telecom</option>
+                                <option value="insurance">Insurance/Property</option>
+                                <option value="public-safety">Public Safety</option>
+                                <option value="industrial">Industrial/Manufacturing</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="timeline">Timeline</label>
+                            <select id="timeline" name="timeline">
+                                <option value="">Select a timeline</option>
+                                <option value="immediate">Immediate (1-2 weeks)</option>
+                                <option value="short">Short-term (1-3 months)</option>
+                                <option value="medium">Medium-term (3-6 months)</option>
+                                <option value="long">Long-term (6+ months)</option>
+                                <option value="exploring">Just exploring</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="use-case">Use Case / Project Description *</label>
+                        <textarea id="use-case" name="use-case" rows="4" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="budget">Budget Range</label>
+                        <select id="budget" name="budget">
+                            <option value="">Select a budget range</option>
+                            <option value="under-10k">Under $10,000</option>
+                            <option value="10k-25k">$10,000 - $25,000</option>
+                            <option value="25k-50k">$25,000 - $50,000</option>
+                            <option value="50k-100k">$50,000 - $100,000</option>
+                            <option value="over-100k">Over $100,000</option>
+                            <option value="not-sure">Not sure yet</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Additional Details</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo-text">SKYVO</div>
+                    <p class="footer-tagline">Drones • Robotics • AI</p>
+                    <p class="footer-description">Turning field data into decisions—safely, fast, and at scale.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Solutions</h4>
+                        <a href="#solutions">Drones</a>
+                        <a href="#solutions">Robotics</a>
+                        <a href="#solutions">AI</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <a href="#process">Process</a>
+                        <a href="#faq">FAQ</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <a href="mailto:hello@skyvo.io">hello@skyvo.io</a>
+                        <a href="tel:+14168058408">416-805-8408</a>
+                        <a href="https://skyvo.io">skyvo.io</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Skyvo. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
